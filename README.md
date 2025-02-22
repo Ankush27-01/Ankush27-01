@@ -1,12 +1,16 @@
 <img src="banner_github.png" alt="GitHub Banner" width="100%" />
 
-<h1 align="center">Hello World! 👋🏼, I'm Tobi, a German Web Developer</h1>
+<h1 align="center">
+  <span>🐍 Watch the Snake Move Over My Name! 🐍</span>
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=F7931E&width=435&lines=Hey+There!+I'm+Tobi+%F0%9F%91%8B;Web+Developer+%7C+Tech+Enthusiast+%F0%9F%9A%80;Building+Cool+Projects+Everyday!+%E2%9A%A1" />
+</h1>
 
 <p align="center">
-  🛜 Currently building my own <a href="https://www.tobiasmeyhoefer.de">webpage</a> <br>
+  🛜 Building my own <a href="https://www.tobiasmeyhoefer.de">webpage</a> <br>
   👨🏼‍🎓 Studying Media-Based Computer Science at Berliner Hochschule für Technik <br>
-  👨🏼‍💻 Working as a Web Developer since 2022 <br>
-  🎬 Just started my YouTube channel <i>Tobi Tackles Tech</i>  
+  👨🏼‍💻 Web Developer since 2022 <br>
+  🎬 Running my YouTube channel <i>Tobi Tackles Tech</i>  
 </p>
 
 ---
@@ -21,6 +25,22 @@
 
 ---
 
+## 🏆 GitHub Stats & Trophies  
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tobiasmeyhoefer&show_icons=true&theme=radical&count_private=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=tobiasmeyhoefer&theme=radical" />
+  <img height="180em" src="https://github-profile-trophy.vercel.app/?username=tobiasmeyhoefer&theme=dracula&column=6&margin-w=10" />
+</div>
+
+---
+
+## 🔥 Most Used Technologies  
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tobiasmeyhoefer&theme=radical&layout=compact" />
+</div>
+
+---
+
 ## 💻 Tech Stack  
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,swift,cs,java,html,css,sass,tailwind,js,nodejs,react,redux,angular,nextjs,vite,electron,express,dotnet,graphql,powershell,nginx,mongodb,postgres,mysql,sqlite,firebase,aws,gcp,figma,adobe,vercel" />
@@ -28,41 +48,37 @@
 
 ---
 
-## 📊 GitHub Stats  
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tobiasmeyhoefer&show_icons=true&theme=radical&count_private=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=tobiasmeyhoefer&theme=radical" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tobiasmeyhoefer&theme=radical&layout=compact" />
-</div>
+## 🐍 GitHub Contribution Snake (Animated on My Name)  
+```md
+  # Workflow Name
+  name: GitHub Snake Animation on Username
 
----
+  on:
+    schedule:
+      - cron: "0 0 * * *"  # Runs daily at midnight UTC
+    workflow_dispatch:
 
-## 🐍 GitHub Contribution Snake  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-</picture>
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      timeout-minutes: 10
+      steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v3
 
----
+        - name: Generate Snake Animation
+          uses: Platane/snk@v3
+          with:
+            github_user_name: ${{ github.repository_owner }}
+            outputs: |
+              dist/github-snake.svg
+              dist/github-snake-dark.svg?palette=github-dark
+              dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-## 🎬 Latest YouTube Videos  
-<!-- YOUTUBE:START -->
-▶ [How I Built My Portfolio Website from Scratch](https://www.youtube.com/watch?v=xyz123)  
-▶ [Top 5 Web Development Trends in 2025](https://www.youtube.com/watch?v=xyz123)  
-▶ [Beginner’s Guide to Next.js](https://www.youtube.com/watch?v=xyz123)  
-<!-- YOUTUBE:END -->
-
----
-
-## 🏆 GitHub Trophies  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tobiasmeyhoefer&theme=darkhub&no-frame=true&margin-w=15&column=7" />
-</p>
-
----
-
-## ⚡ Fun Fact  
-🦄 I love working on **new web technologies** and always look for **exciting projects to contribute to!**  
-
-
+        - name: Deploy Animation to Output Branch
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./dist
+            publish_branch: output
+            commit_message: "🐍 Update Snake Animation [skip ci]"
