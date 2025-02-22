@@ -1,66 +1,66 @@
 <img src="banner_github.png" alt="GitHub Banner" width="100%" />
 
-<h1 align="center">Hello World! 👋🏼, I'm Tobi, a German Web Developer</h1>
+<h1 align="center">Hello World! 👋🏼, I'm Ankush Borkar</h1>
 
 <p align="center">
-  🛜 Currently building my own <a href="https://www.tobiasmeyhoefer.de">webpage</a> <br>
-  👨🏼‍🎓 Studying Media-Based Computer Science at Berliner Hochschule für Technik <br>
-  👨🏼‍💻 Working as a Web Developer since 2022 <br>
-  🎬 Just started my YouTube channel <i>Tobi Tackles Tech</i>  
+  📊 Passionate Data Scientist | Machine Learning Enthusiast | AI Engineer <br>
+  🏢 Working on advanced data-driven projects <br>
+  📚 Constantly learning and implementing AI & Data Science solutions <br>
+  📺 Sharing insights through blogs & videos  
 </p>
 
 ---
 
 ## 🚀 Connect with Me  
 <p align="center">
-  <a href="https://www.tobiasmeyhoefer.de"><img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=Google-Chrome&logoColor=white" /></a>
-  <a href="https://www.youtube.com/@tobitacklestech"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/tobiasmeyhoefer"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:hello@tobiasmeyhoefer.de"><img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=GMail&logoColor=white" /></a>
+  <a href="https://ankushborkar.github.io"><img src="https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=Google-Chrome&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/ankushborkar"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:ankushborkar@email.com"><img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=GMail&logoColor=white" /></a>
+  <a href="https://www.kaggle.com/ankushborkar"><img src="https://img.shields.io/badge/Kaggle-%23007ACC.svg?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
 </p>
 
 ---
 
-## 💻 Tech Stack  
+## 🧠 Data Science & AI Tech Stack  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,swift,cs,java,html,css,sass,tailwind,js,nodejs,react,redux,angular,nextjs,vite,electron,express,dotnet,graphql,powershell,nginx,mongodb,postgres,mysql,sqlite,firebase,aws,gcp,figma,adobe,vercel" />
+  <img src="https://skillicons.dev/icons?i=python,sql,r,jupyter,tensorflow,pytorch,scikit-learn,pandas,numpy,matplotlib,seaborn,postgres,mongodb,sqlite,powerbi,tableau,aws,gcp,flask,fastapi" />
 </p>
 
 ---
 
 ## 📊 GitHub Stats  
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tobiasmeyhoefer&show_icons=true&theme=radical&count_private=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=tobiasmeyhoefer&theme=radical" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tobiasmeyhoefer&theme=radical&layout=compact" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ankushborkar&show_icons=true&theme=radical&count_private=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ankushborkar&theme=radical" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankushborkar&theme=radical&layout=compact" />
 </div>
+
+---
+
+## 🏆 GitHub Trophies  
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ankushborkar&theme=darkhub&no-frame=true&margin-w=15&column=7" />
+</p>
 
 ---
 
 ## 🐍 GitHub Contribution Snake  
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ankushborkar/ankushborkar/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ankushborkar/ankushborkar/output/github-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/ankushborkar/ankushborkar/output/github-snake.svg" />
 </picture>
 
 ---
 
 ## 🎬 Latest YouTube Videos  
 <!-- YOUTUBE:START -->
-▶ [How I Built My Portfolio Website from Scratch](https://www.youtube.com/watch?v=xyz123)  
-▶ [Top 5 Web Development Trends in 2025](https://www.youtube.com/watch?v=xyz123)  
-▶ [Beginner’s Guide to Next.js](https://www.youtube.com/watch?v=xyz123)  
+▶ [How to Build a Data Science Portfolio](https://www.youtube.com/watch?v=xyz123)  
+▶ [Top 5 Machine Learning Algorithms You Should Know](https://www.youtube.com/watch?v=xyz123)  
+▶ [Getting Started with TensorFlow and PyTorch](https://www.youtube.com/watch?v=xyz123)  
 <!-- YOUTUBE:END -->
 
 ---
 
-## 🏆 GitHub Trophies  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tobiasmeyhoefer&theme=darkhub&no-frame=true&margin-w=15&column=7" />
-</p>
-
----
-
 ## ⚡ Fun Fact  
-🦄 I love working on **new web technologies** and always look for **exciting projects to contribute to!**  
+🚀 Data Science is not just about numbers—it's about **unlocking hidden patterns** and **making impactful decisions!**  
